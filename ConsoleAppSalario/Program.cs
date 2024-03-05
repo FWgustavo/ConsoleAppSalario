@@ -38,7 +38,7 @@ namespace ConsoleAppSalario
             double totalh = horas * vhora;
             double sl = sb + valea + totalf + totalh - inss - irpf;
 
-            Console.WriteLine("O seu sálario líquido é: " + sl);
+            Console.WriteLine("O seu sálario líquido é: " + sl.ToString("C"));
             Console.ReadKey();
         }
     }
