@@ -12,18 +12,25 @@ namespace ConsoleAppSalario
         {
             Console.Write("Escreva o Valor do seu Sálario bruto: ");
             double sb = double.Parse(Console.ReadLine());
+
             Console.Write("Valor do Vale Alimentação: ");
             double valea = double.Parse(Console.ReadLine());
+
             Console.Write("Números de filhos: ");
             int filho = int.Parse(Console.ReadLine());
+
             Console.Write("Valor por filho: ");
             double vfilho = double.Parse(Console.ReadLine());
+
             Console.Write("Número de horas extras: ");
             int horas = int.Parse(Console.ReadLine());
+
             Console.Write("Valor por hora extra: ");
             double vhora = double.Parse(Console.ReadLine());
+
             Console.Write("Valor de desconto do INSS: ");
             double inss = double.Parse(Console.ReadLine());
+
             Console.Write("Valor de desconto do IRPF: ");
             double irpf = double.Parse(Console.ReadLine());
             
